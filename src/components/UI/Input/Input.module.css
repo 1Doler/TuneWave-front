@@ -1,0 +1,12 @@
+.input {
+  padding: 7px 12px;
+  border: 1px solid var(--gray-light);
+  border-radius: 5px;
+  outline-color: var(--primary);
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.input:hover {
+  border: 1px solid var(--primary);
+}
