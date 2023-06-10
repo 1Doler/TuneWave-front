@@ -1,0 +1,16 @@
+.layout {
+  background: white;
+
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  padding: 10px;
+  background: var(--bark);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}

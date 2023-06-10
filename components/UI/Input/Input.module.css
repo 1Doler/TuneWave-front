@@ -1,0 +1,42 @@
+.input {
+  padding: 10px 12px;
+  border: 1px solid var(--gray-light);
+  border-radius: 5px;
+  outline-color: var(--primary);
+  outline-width: 1px;
+  font-size: 18px;
+  font-weight: 200;
+  position: relative;
+}
+
+.input:hover {
+  border: 1px solid var(--primary);
+}
+
+.wrapper {
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  font-size: 16px;
+  color: var(--gray);
+  pointer-events: none;
+  transition: all 0.2s;
+}
+
+.input:focus + .label,
+.filled {
+  top: 0;
+  transform: translateY(-50%);
+  font-size: 14px;
+  background-color: white;
+  padding: 0 5px;
+}
+
+.errorMessage {
+  font-size: 12px;
+  color: red;
+}

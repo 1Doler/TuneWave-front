@@ -1,0 +1,46 @@
+.login {
+  min-height: 100vh;
+  background: var(--bg-gradient);
+
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.card {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+
+.form {
+  display: grid;
+  justify-items: stretch;
+  gap: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.logup {
+  grid-column: 2;
+  text-decoration: none;
+}
+
+.logup p {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: right;
+  color: var(--primary);
+}
+
+.error {
+  font-size: 14px;
+  color: red;
+}

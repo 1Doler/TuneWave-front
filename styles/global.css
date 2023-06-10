@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: 20px;
+}
+
+body {
+  min-height: 100vh;
+}
+
+:root {
+  --primary: rgb(64, 150, 255);
+  --white: white;
+  --primary-hover: rgb(53, 117, 194);
+  --gray-light: rgb(217, 217, 217);
+  --gray: #a0a0a0;
+  --bark: #0f0527;
+  --bg-gradient: linear-gradient(90deg, #ead1fa, #e0b3e3, #f7d9d7);
+  --font-family: "Noto Sans", sans-serif;
+}

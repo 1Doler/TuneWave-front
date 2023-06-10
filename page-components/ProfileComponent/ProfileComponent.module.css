@@ -1,0 +1,7 @@
+.profile,
+.form {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+  justify-content: center;
+}
