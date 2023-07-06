@@ -4,4 +4,5 @@ export interface IUser {
   lastName: String;
   email: String;
   avatarUrl: String;
+  dateofBirth: String;
 }

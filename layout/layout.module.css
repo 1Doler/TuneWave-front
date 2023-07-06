@@ -9,8 +9,29 @@
 
 .wrapper {
   padding: 10px;
-  background: var(--bark);
+  background: black;
   height: 100vh;
   display: grid;
   grid-template-columns: auto 1fr;
+  gap: 10px;
+}
+
+.card {
+  position: relative;
+  display: grid;
+  grid-row: auto;
+  align-items: start;
+}
+
+.header {
+  margin-top: 20px;
+  justify-self: center;
+  position: absolute;
+  width: 90%;
+  /*  top: 10px;
+  left: 20px; */
+}
+
+.main {
+  border-radius: 20px;
 }

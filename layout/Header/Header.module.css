@@ -1,0 +1,22 @@
+.nav {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto auto;
+  align-items: center;
+  gap: 30px;
+  background-color: var(--dark);
+  padding: 8px 30px;
+  border-radius: 20px;
+}
+
+.notification {
+  grid-column: 5;
+}
+
+.search {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.avatar {
+  grid-column: 6;
+}

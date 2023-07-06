@@ -29,8 +29,6 @@ export const LoginComponents = () => {
   const dispatch = useAppDispatch();
   const router = useRouter();
 
-  console.log(loading);
-
   useEffect(() => {
     if (user?.firstName) {
       router.push("/");

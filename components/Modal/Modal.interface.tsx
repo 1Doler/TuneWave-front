@@ -1,11 +1,13 @@
 import { DetailedHTMLProps, HtmlHTMLAttributes, ReactNode } from "react";
 
-export interface CardProps
+export interface ModalProps
   extends DetailedHTMLProps<
     HtmlHTMLAttributes<HTMLDivElement>,
     HTMLDivElement
   > {
-  url?: String;
-  size?: "large" | "small";
-  form?: "circle";
+  color?: "white" | "dark" | "gray";
+  title?: string;
+  open: Boolean;
+  onClose: () => void;
+  children: ReactNode;
 }

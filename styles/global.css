@@ -10,13 +10,21 @@ body {
   min-height: 100vh;
 }
 
+.react-ui-w87gt2,
+.react-ui-1ut2kiv {
+  outline-color: white;
+  border: none;
+  border-radius: 5px;
+}
+
 :root {
   --primary: rgb(64, 150, 255);
   --white: white;
   --primary-hover: rgb(53, 117, 194);
   --gray-light: rgb(217, 217, 217);
   --gray: #a0a0a0;
-  --bark: #0f0527;
+  --dark: #2d2e37;
+  --dark-ghost: #403d4f;
   --bg-gradient: linear-gradient(90deg, #ead1fa, #e0b3e3, #f7d9d7);
   --font-family: "Noto Sans", sans-serif;
 }

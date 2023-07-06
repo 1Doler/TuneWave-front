@@ -8,12 +8,19 @@ export const Button = ({
   color = "primary",
   className,
   size = "large",
+  form,
   children,
   ...props
 }: ButtonProps) => {
   return (
     <button
-      className={cn(styles.button, styles[color], styles[size], className)}
+      className={cn(
+        styles.button,
+        styles[color],
+        form && styles[form],
+        styles[size],
+        className
+      )}
       {...props}
     >
       {children}

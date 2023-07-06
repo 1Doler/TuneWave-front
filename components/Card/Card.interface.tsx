@@ -5,6 +5,6 @@ export interface CardProps
     HtmlHTMLAttributes<HTMLDivElement>,
     HTMLDivElement
   > {
-  color?: "white" | "bark";
+  color?: "white" | "dark" | "gray";
   children: ReactNode;
 }

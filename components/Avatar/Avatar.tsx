@@ -8,19 +8,30 @@ import styles from "./Avatar.module.css";
 export const AvatarImg = ({
   url,
   className,
+  form,
   size = "small",
   ...props
 }: CardProps) => {
+  console.log(url);
   if (url) {
     return (
-      <img
-        className={cn(styles.avatar, styles[size], className)}
-        src={`${url}`}
-      />
+      <div className={cn(styles.imgContainer, styles[size])}>
+        <img
+          className={cn(form && styles[form], styles.className)}
+          src={`${url}`}
+        />
+      </div>
     );
   }
   return (
-    <div className={cn(styles.avatar, styles[size], className)}>
+    <div
+      className={cn(
+        styles.avatar,
+        form && styles[form],
+        styles[size],
+        className
+      )}
+    >
       <BiUser size={size === "large" ? 80 : 40} />
     </div>
   );

@@ -5,11 +5,14 @@
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
+  display: flex;
+  gap: 10px;
 }
 .large {
   font-size: 18px;
 }
 .small {
+  padding: 3px;
   font-size: 14px;
 }
 .primary {
@@ -19,4 +22,20 @@
 
 .primary:hover {
   background-color: var(--primary-hover);
+}
+.dark {
+  background-color: var(--dark-ghost);
+}
+.ghost {
+  display: grid;
+  background-color: var(--dark-ghost);
+  color: white;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }

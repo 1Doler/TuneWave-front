@@ -5,7 +5,8 @@ export interface ButtonProps
     ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
   > {
-  color?: "primary";
+  color?: "primary" | "ghost" | "dark";
   size?: "small" | "large";
+  form?: "circle";
   children: ReactNode;
 }

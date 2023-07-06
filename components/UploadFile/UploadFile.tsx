@@ -3,6 +3,7 @@ import axios from "../../axiox";
 import { ChangeEvent, useRef, useState } from "react";
 import { Button } from "../UI";
 import { UploadFileProps } from "./UploadFile.interface";
+import { AiOutlineUpload } from "react-icons/ai";
 
 export const UploadFile = ({ change }: UploadFileProps) => {
   const inputFileRef = useRef<HTMLInputElement>(null);
@@ -29,7 +30,7 @@ export const UploadFile = ({ change }: UploadFileProps) => {
   return (
     <div>
       <Button onClick={() => inputFileRef?.current?.click()} size="small">
-        загрузить аватарку
+        <AiOutlineUpload /> загрузить аватарку
       </Button>
       <input
         ref={inputFileRef}

@@ -1,3 +1,12 @@
+.nav {
+  background: var(--dark);
+  border-radius: 20px;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  align-content: flex-start;
+  gap: 20px;
+}
 .logoWrapper {
   width: 70px;
   height: 70px;

@@ -1,3 +1,15 @@
+.imgContainer {
+  width: 300px; /* Ширина контейнера */
+  height: 300px; /* Высота контейнера */
+  overflow: hidden;
+  border-radius: 20%;
+}
+.imgContainer img {
+  width: 100%; /* Ширина изображения */
+  height: 100%; /* Высота изображения */
+  object-fit: cover;
+  object-position: center;
+}
 .avatar {
   background-color: var(--gray-light);
   border-radius: 20%;
@@ -7,11 +19,15 @@
 }
 
 .small {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
 }
 
 .large {
-  width: 200px;
-  height: 200px;
+  width: 240px;
+  height: 240px;
+}
+
+.circle {
+  border-radius: 50%;
 }

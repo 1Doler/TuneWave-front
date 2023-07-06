@@ -5,3 +5,36 @@
   justify-items: center;
   justify-content: center;
 }
+
+.contented {
+  padding: 100px 80px;
+  border-radius: 20px 20px 0 0;
+  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  align-items: end;
+  gap: 40px;
+}
+.contented p {
+  color: white;
+}
+
+.textProfile {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.fullNameProfile {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.editButton {
+  margin-top: 20px;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
